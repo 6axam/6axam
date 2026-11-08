@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">6axam — engineering lab</title>
+  <desc id="desc">A dark terminal-inspired banner with a technical grid, circuit traces and the 6axam wordmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1117"/><stop offset="1" stop-color="#111C26"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#58A6FF" stroke-opacity=".09"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="330" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="17" fill="url(#grid)" stroke="#30363D"/>
+  <path d="M0 258H220l28-28h168l34-34h176M1200 68h-220l-28 28H790l-32 32H585" fill="none" stroke="#00D9B4" stroke-opacity=".35"/>
+  <g fill="#00D9B4" filter="url(#glow)"><circle cx="220" cy="258" r="4"/><circle cx="416" cy="196" r="4"/><circle cx="585" cy="128" r="4"/></g>
+  <g fill="#58A6FF" opacity=".65"><circle cx="980" cy="68" r="3"/><circle cx="752" cy="128" r="3"/></g>
+  <g transform="translate(82 76)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text y="0" fill="#8B949E" font-size="15">/home/6axam/lab</text>
+    <text y="92" fill="#00D9B4" font-size="78" font-weight="700" letter-spacing="5">6axam</text>
+    <text y="136" fill="#E6EDF3" font-size="20" letter-spacing="2">BUILD · TEST · ITERATE</text>
+    <text y="176" fill="#8B949E" font-size="14">linux tools // automation // curious machines</text>
+  </g>
+  <g transform="translate(965 218)" fill="none" stroke="#00D9B4" stroke-width="2" opacity=".8"><rect width="130" height="60" rx="5"/><path d="M14 20l10 9-10 9M34 38h23"/><circle cx="103" cy="30" r="11"/><path d="M103 22v16M95 30h16"/></g>
+</svg>
